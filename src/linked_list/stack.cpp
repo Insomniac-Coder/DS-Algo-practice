@@ -45,5 +45,5 @@ void stack::pop() {
     head = head->next;
     
     temp->next = nullptr;
-    free(temp);
+    delete temp;
 }

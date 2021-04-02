@@ -31,7 +31,7 @@ void queue::pop() {
     temp = head;
     head = head->next;
 
-    free(temp);
+    delete temp;
 }
 
 void queue::display() {
