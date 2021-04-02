@@ -1,7 +1,7 @@
 #ifndef QUEUE_EXAMPLE_H
 #define QUEUE_EXAMPLE_H
 
-#include "../src/queue.h"
+#include "../src/linked_list/queue.h"
 
 void queue_example();
 
