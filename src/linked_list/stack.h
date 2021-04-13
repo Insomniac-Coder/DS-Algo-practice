@@ -7,6 +7,7 @@
 
 #include "node.h"
 
+template <typename T>
 class stack {
     public:
     void push(int v);
@@ -14,7 +15,7 @@ class stack {
     void pop();
     
     private:
-    node *head;
+    node<T> *head;
 };
 
 #endif STACK_H

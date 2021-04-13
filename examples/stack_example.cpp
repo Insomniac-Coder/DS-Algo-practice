@@ -3,7 +3,7 @@
 
 void stack_example()
 {
-    stack st;
+    stack<int> st;
     
     char s[20];
     memset(s, '#', sizeof(s) - 1);

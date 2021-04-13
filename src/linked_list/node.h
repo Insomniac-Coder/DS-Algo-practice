@@ -1,8 +1,9 @@
 #ifndef NODE_H
 #define NODE_H
 
+template <typename T>
 struct node {
-    int value;
+    T value;
     node *next;
 };
 
